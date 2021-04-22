@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c34a17cc-490d-40a9-8201-9422c69837d4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/app.js" afterDir="false" />
-    </list>
+    <list default="true" id="c34a17cc-490d-40a9-8201-9422c69837d4" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/dist/js/" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,8 +17,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="232" column="12" selection-start-line="232" selection-start-column="12" selection-end-line="232" selection-end-column="12" />
+            <state relative-caret-position="490">
+              <caret line="283" column="8" selection-start-line="280" selection-start-column="1" selection-end-line="283" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -186,12 +183,12 @@
       <workItem from="1619073472877" duration="1574000" />
       <workItem from="1619075732183" duration="196000" />
       <workItem from="1619076591443" duration="601000" />
-      <workItem from="1619079924538" duration="504000" />
+      <workItem from="1619079924538" duration="807000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50353000" />
+    <option name="totallyTimeSpent" value="50656000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -452,8 +449,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="232" column="12" selection-start-line="232" selection-start-column="12" selection-end-line="232" selection-end-column="12" />
+        <state relative-caret-position="490">
+          <caret line="283" column="8" selection-start-line="280" selection-start-column="1" selection-end-line="283" selection-end-column="8" />
         </state>
       </provider>
     </entry>
