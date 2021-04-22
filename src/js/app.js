@@ -249,6 +249,7 @@ function doneTask(context) {
   }
   //отправляем обновлённый архив  в хранилище
   localStorage.setItem('repository',JSON.stringify(baseToDo));
+
   if (document.querySelector('.activeTasks').classList.contains('activStatus') || document.querySelector('.completedTasks').classList.contains('activStatus')) {
     if (context.parentNode) {
       context.parentNode.removeChild(context);
@@ -277,10 +278,10 @@ function markEvent(context) {
   //отправляем обновлённый архив  в хранилище
   localStorage.setItem('repository',JSON.stringify(baseToDo));
   //Удаляем визуально в нужных вкладках
-  if (document.querySelector('.activeTasks').classList.contains('activStatus') || document.querySelector('.completedTasks').classList.contains('activStatus')) {
+ /* if (document.querySelector('.activeTasks').classList.contains('activStatus') || document.querySelector('.completedTasks').classList.contains('activStatus')) {
     if (context.parentNode) {
       context.parentNode.removeChild(context);
-    }}
+    }}*/
 }
 
 //функция очистки отображаемых задач
