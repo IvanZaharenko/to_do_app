@@ -1,0 +1,135 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+section{
+    max-width: 1440px;
+    min-height: 1024px;
+    margin: 0 auto;
+    background:url('../images/design/taking_notes.png') no-repeat ;
+    background-position-y: 218px;
+    background-position-x: 520px;
+}
+.wrapContent{
+    max-width: 776px;
+    margin: 0 23px 0 23px;
+}
+.header_ToDo{
+display: flex;
+}
+.logo{
+    max-width: 174px;
+    min-height: 44px;
+    margin: 20px 0 0 0;
+    cursor: pointer;
+}
+#serchForm{
+    width: 100%;
+    max-width: 584px;
+    margin: 22px 0 0 20px;
+    position: relative;
+}
+#searchTasks{
+    width: 100%;
+    height: 40px;
+    background: linear-gradient(0deg, #F6F6F6, #F6F6F6), #FEFEFE;
+    border: 1px solid #E2E2E2;
+    box-sizing: border-box;
+    box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    padding: 9px 10px 10px 50px;
+}
+#serchForm:before{
+    content: "";
+    position: absolute;
+    top: 14px;
+    width: 12px;
+    height: 12px;
+    left: 15px;
+    background: url('../images/design/Search.png') no-repeat;
+    background-size: cover;
+}
+.enterTasks{
+    margin: 18px 0 0 0;
+}
+#tasksForm{
+    width: 100%;
+    position: relative;
+}
+.control_label_check{
+    display: inline-block;
+   width: 53px;
+    height: 16px;
+    font-size: 12px;
+    line-height: 15px;
+    color: #706E6B;
+}
+#newTask{
+    resize: vertical;
+    width: 100%;
+    min-height: 90px;
+    max-height: 150px;
+    background: #FFFFFF;
+    border: 1px solid #DDDBDA;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin: 3px 0 0 0;
+    padding: 5px 0 0 12px;
+}
+#addNewTask{
+    max-width: 191px;
+    width: 100%;
+    height: 36px;
+    background: #2F80ED;
+    color: #FFFFFF;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25);
+    border: 1px solid #2F80ED;
+    margin: 11px 0 0 calc(100% - 191px);
+    cursor: pointer;
+}
+#addNewTask:hover{
+   background:  rgba(47,128,237,0.9);
+    border: 1px solid rgba(47,128,237,0.9);
+}
+#addNewTask:active{
+    background:  rgba(47,128,237,0.8);
+    border: 1px solid rgba(47,128,237,0.8);
+}
+.star{
+    width: 20px;
+    height: 19px;
+    margin: 14px 0 0 19px;
+    cursor: pointer;
+    font-size: 20px;
+    visibility: hidden;
+}
+.star_visible {
+    visibility: inherit;
+}
+.noneDisplay {
+    display: none;
+}
+.star.done {
+    text-decoration: line-through;
+    font-weight: bold;
+}
+.deleteTask{
+    margin: 11px 0 0 21px;
+    cursor: pointer;
+    visibility: hidden;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #e1e1e1;
+    border-radius: 50%;
+}
+.deleteTask:hover {
+    transition: 0.5s;
+    transform: scale(1.1);
+    border: 1px solid black;
+}
+.visable {
+    visibility: inherit;
+}
+.hidden{
+    visibility: hidden !important;
+}

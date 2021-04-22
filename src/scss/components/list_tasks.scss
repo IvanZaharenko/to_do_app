@@ -1,0 +1,43 @@
+.listToDo{
+  margin: 23px 0 50px 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.listElem{
+  background: #FFFFFF;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  width: 100%;
+  margin: 17px 0 0 0;
+  height: 109px;
+  display: flex;
+  cursor: pointer;
+
+  p{
+    max-width: 415px;
+    width: 100%;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #53565A;
+    margin: 16px 0 5px 10px;
+    cursor: pointer;
+    word-break: break-word;
+    overflow-y: auto;
+
+    &.bold_Task{
+      font-weight: bold;
+    }
+    &.done{
+      text-decoration: line-through;
+    }
+  }
+  &:hover {
+    box-shadow: 1px 2px 13px -1px #071ab8;
+  }
+  &:first-child{
+    margin: 0;
+  }
+}
